@@ -9,10 +9,10 @@ import numberWithCommas from '../utils/numberWithCommast'
 const ProductCard = props => {
   return (
     <div className='product-card'>
-        <Link to={`/catalog/${props.slug}`}>
+        <Link to={`./catalog/${props.slug}`}>
             <div className='product-card__image'>
-                <img src={process.env.PUBLIC_URL + props.img01} alt="" />
-                <img src={process.env.PUBLIC_URL + props.img02} alt="" />
+                <img src={props.img01} alt="" />
+                <img src={props.img02} alt="" />
             </div>
             <h3 className="product-card__name">{props.name}</h3>
             <div className="product-card__price">
