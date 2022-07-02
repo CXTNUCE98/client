@@ -6,7 +6,7 @@
     width: 100%;
     z-index: 99;
     height: $header-height;
-    transition: height .0.3 ease;
+    transition: height 0.3 ease;
 
     @include tablet{
         height: $header-tablet-height;
